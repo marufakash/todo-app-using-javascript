@@ -77,10 +77,10 @@
         <span> <button class="btn" id="deleteBtn"> <i class="fa-solid fa-trash"></i> </button> </span>
     `;
     todoLists.appendChild(todoElement);
-  }
 
   const deleteButton = todoElement.querySelector("#deleteBtn");
   deleteButton.addEventListener("click",deleteTodo);
+  }
   ```
 
 - step 6: showMessage
